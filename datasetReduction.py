@@ -1,6 +1,6 @@
 import pandas as pd
 
-# ✅ Load NYT CSV file
+# ✅ Load NYT CSV file through read_csv
 nyt_df = pd.read_csv("./archive/nyt-metadata.csv", low_memory=False)
 
 # ✅ Check the first few rows and columns of the dataset
